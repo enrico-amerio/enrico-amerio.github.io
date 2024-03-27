@@ -1,0 +1,57 @@
+body{
+  font-family:'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.debug{
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.custom-nav{
+  height:70px;
+}
+.custom-mobile-logo{
+  width: 40px;
+  aspect-ratio: 1/1;
+}
+.custom-grey-icon{
+  color:#5b5858;
+}
+.custom-big-container{
+  width: 100%;
+}
+.custom-left-container{
+  width:55px;
+  height: calc(100vh - 70px);
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #051e34;
+}
+.custom-blue-bar{
+  height: 217px;
+  width: 100%;
+}
+.custom-blue-badge{
+  background-color: #165bba;
+}
+.custom-main{
+  height: calc(100vh - 217px - 70px);
+}
+.custom-graph{
+  max-width: 1000px;
+}
+.custom-hover-effect:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+@media screen and (min-width:768px) {
+  .custom-blue-bar{
+    height: 100px;
+    
+  }
+  .custom-main{
+    height: calc(100vh - 100px - 70px);
+  }
+}
+@media screen and (min-width:992px) {
+  .custom-left-container{
+    width:150px;
+    
+  }
+}
