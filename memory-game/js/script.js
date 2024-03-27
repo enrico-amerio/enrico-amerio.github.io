@@ -2,6 +2,7 @@ let game = document.querySelector('.game');
 let gameFreezer = document.querySelector('.game-freezer');
 const popupContainer = document.querySelector('.popup-container')
 const refreshBtn = document.getElementById("refresh-btn");
+
 let points = 0;
 const cardsArray = [
   { name: "Img 1", img: "../img/elf.png", ID: 1 },
